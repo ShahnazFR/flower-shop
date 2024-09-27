@@ -38,7 +38,7 @@ p {
   /* width: 500px; */
 }
 
-header {
+header ,#hot-deal{
   background: rgba(229, 84, 115, 0.1);
 }
 
@@ -158,6 +158,43 @@ header {
   font-weight: 600;
   line-height: 35px; /* 145.833% */
   margin-top: 24px;
+}
+
+/* Hot deal section starts here */
+
+#hot-deal{
+  margin-bottom: 120px;
+}
+
+.deal{
+  display: flex;
+  justify-content: space-around;
+  padding: 75px;
+  align-items: center;
+}
+
+.deal-detail{
+  text-align: center;
+  /* margin-bottom: 24px; */
+
+}
+.deal-title{
+  color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+
+.off{
+  color: #E55473;
+}
+
+.deal-detail p{
+  width: 500px;
+  margin-bottom: 32px;
 }
 
 
