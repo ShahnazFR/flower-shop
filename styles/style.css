@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Lato", system-ui;
+  overflow-x: hidden;
 }
 
 .primary-btn {
@@ -42,6 +43,11 @@ header,
 #hot-deal {
   background: rgba(229, 84, 115, 0.1);
 }
+
+/* main section{
+   margin: 0 auto; 
+   width: 100%;
+} */ 
 
 .container {
   width: 75%;
