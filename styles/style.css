@@ -246,7 +246,7 @@ flex-shrink: 0;
 }
 
 .footer-container p{
-  margin-left: 250px;
+  margin-left: 390px;
   color: rgba(255, 255, 255, 0.90);
 text-align: center;
 font-family: Lato;
@@ -292,10 +292,14 @@ line-height: normal;
   .container{
     width: 90%;
   }
+  /* .header{
+    margin-bottom: 100px;
+  } */
   .banner-container {
     flex-direction: column-reverse;
     gap: 10px;
     padding: 20px;
+    /* margin-bottom: 600px; */
   }
   .banner-container .banner-text h1 {
     font-size: xx-large;
@@ -319,7 +323,7 @@ line-height: normal;
   margin-bottom: 60px;
 }
 #hot-deal{
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 .common-container p{
   width: 100%;
@@ -360,7 +364,7 @@ line-height: normal;
   flex-direction: column;
 }
 .common-header{
-  margin-top: 0px;
+  margin-top: 60px;
 }
 .newsletter-main {
   margin-bottom: 40px;
@@ -381,8 +385,9 @@ form input{
   padding: 5px;
   font-size: 15px;
 }
-.newsletter-main .common-container >.common-header{
+.newsletter-main .common-container h1{
   font-size: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
 } 
 
@@ -420,6 +425,9 @@ form input{
   }
   .deal-detail p{
     width: 100%;
+  }
+  #hot-deal{
+    margin-bottom: 0px;
   }
   .banner-img img {
     margin-top: 10px;
@@ -473,7 +481,10 @@ form input{
     grid-template-columns: repeat(2,2fr);
    }
    .common-header{
-    margin-top: 0px;
+    margin-top: 60px;
+  }
+  .newsletter-main{
+    background-size: 90vh;
   }
 
   .newsletter-main .common-container p{
