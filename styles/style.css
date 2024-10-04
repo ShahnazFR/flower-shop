@@ -289,6 +289,9 @@ line-height: normal;
 }
 
 @media screen and (max-width:576px){
+  .container{
+    width: 90%;
+  }
   .banner-container {
     flex-direction: column-reverse;
     gap: 10px;
@@ -310,6 +313,13 @@ line-height: normal;
 .flower-container .flower .ful{
   padding: 0px;
   width: 100%;
+  height: 550px;
+}
+#featured-section {
+  margin-bottom: 60px;
+}
+#hot-deal{
+  margin-bottom: 60px;
 }
 .common-container p{
   width: 100%;
@@ -320,13 +330,97 @@ line-height: normal;
   justify-content: space-around;
   margin-top: 0px;
 }
+#delivery-section{
+  margin-bottom: 0px;
+}
  .delivery{
-  height: 100%;
+  height: 380px;
   align-items: normal;
  }
+ .deal{
+  flex-direction: column-reverse;
+  padding: 20px;
+ }
+ .deal div{
+  width: 100%;
+ }
+ .deal-detail p{
+  width: 100%;
+}
+.deal-img{
+  margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#insta{
+  margin-bottom: 80px;
+}
+.insta-img-container{
+  flex-direction: column;
+}
+.common-header{
+  margin-top: 0px;
+}
+.newsletter-main {
+  margin-bottom: 40px;
+  background-size: 90vh;
+  padding: 10px;
+  display: flex;
+}
+.newsletter-main div{
+  width: 50%;
+}
+form{
+  max-width: 90%;
+  height: 20%;
+  flex-direction: column;
+}
+form input{
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 15px;
+}
+.newsletter-main .common-container >.common-header{
+  font-size: 30px;
+  margin-bottom: 0px;
+} 
+
+.foot-collector{
+  padding: 50px;
+}
+.footer-container p{
+  margin-left: 0px;
+  width: 100%;
+  font-size: 14px;
+}
+#footer .container{
+  width: 70%;
+}
+.small-footer{
+  font-size: 10px;
+}
+.footer-header{
+  font-size: 36px;
+}
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
+  .container{
+    width: 80%;
+  }
+  .deal-img{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .deal div{
+    width: 50%;
+  }
+  .deal-detail p{
+    width: 100%;
+  }
   .banner-img img {
     margin-top: 10px;
     width: 80%;
@@ -374,5 +468,34 @@ line-height: normal;
    #free-support{
     margin-right: 30px;
    }
+   .insta-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+   }
+   .common-header{
+    margin-top: 0px;
+  }
+
+  .newsletter-main .common-container p{
+    margin: 0 auto 12px;
+  }
+  .foot-collector{
+    padding: 50px;
+  }
+  .footer-container p{
+    margin-left: 0px;
+    width: 100%;
+    font-size: 14px;
+  }
+  #footer .container{
+    width: 70%;
+  }
+  .small-footer{
+    font-size: 10px;
+  }
+  .footer-header{
+    font-size: 36px;
+  }
+
 }
 
